@@ -29,9 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "development": "webpack serve  --config webpac.config.js",
-    "start": "webpack serve --mode development --env development --open",
-    "start2": "react-scripts start",
+    "webpack start": "webpack serve  --config webpac.config.js",
+    "start react classic": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
