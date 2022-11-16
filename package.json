@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ageevdmitryminsk.github.io/testovoe/",
   "name": "testovoe1",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,7 @@
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-react-css-modules": "^5.2.6",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "react-phone-input-2": "^2.15.1",
     "react-scripts": "5.0.1",
     "sass": "^1.56.1",
@@ -32,7 +34,9 @@
     "start2": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
