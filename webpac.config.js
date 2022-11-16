@@ -8,7 +8,7 @@
 // };
 
 
-module.exports = function (api) {
+module.exports = function () {
     return {
         plugins: ['macros'],
     }
@@ -49,7 +49,15 @@ module.exports = {
                     // Compiles Sass to CSS
                     "sass-loader",
                 ],
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                loader: "file-loader",
+                options: {
+                    outputPath: "../fonts",
+                },
             }
+
         ]
     }
 }

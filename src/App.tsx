@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.scss';
 import axios from "axios";
-import PhoneInput from 'react-phone-input-2';
-
 
 
 type commentType = {
@@ -94,7 +92,7 @@ function App() {
 					type="submit"
 					style={{opacity: formValid ? 1 : 0.6}}>
 				{/*<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-download"></i></div>*/}
-				<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-hand fa-shake"></i></div>
+				<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-bell fa-shake"></i></div>
 
 
 
