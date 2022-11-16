@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/testovoe/static/css/main.288d49f3.css",
+    "main.js": "/testovoe/static/js/main.fb85fed4.js",
+    "static/js/651.aaf49a51.chunk.js": "/testovoe/static/js/651.aaf49a51.chunk.js",
+    "static/media/backdrop.jpg": "/testovoe/static/media/backdrop.b133415aa1a87427cfaa.jpg",
+    "index.html": "/testovoe/index.html",
+    "main.288d49f3.css.map": "/testovoe/static/css/main.288d49f3.css.map",
+    "main.fb85fed4.js.map": "/testovoe/static/js/main.fb85fed4.js.map",
+    "651.aaf49a51.chunk.js.map": "/testovoe/static/js/651.aaf49a51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.288d49f3.css",
+    "static/js/main.fb85fed4.js"
+  ]
+}
