@@ -94,7 +94,7 @@ function App() {
 					type="submit"
 					style={{opacity: formValid ? 1 : 0.6}}>
 				{/*<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-download"></i></div>*/}
-				<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-bell fa-shake"></i></div>
+				<div className="innerBlock">ЗAКАЗАТЬ <i className="fa-solid fa-hand fa-shake"></i></div>
 
 
 
