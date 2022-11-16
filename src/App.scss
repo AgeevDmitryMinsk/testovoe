@@ -1,0 +1,135 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.mainContainer{*/
+/*    display: grid;*/
+/*    min-height: 100vh;*/
+/*    background: url("../public/backdrop.jpg") center no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.myForm {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: end;*/
+/*    text-align: center;*/
+/*}*/
+/*.error {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    color: red;*/
+/*}*/
+
+
+/*.outBlock {*/
+/*    transform: skewX(-45deg);*/
+/*}*/
+
+/*.outBlock > .innerBlock {*/
+/*    transform: skewX(45deg);*/
+/*}*/
+
+
+/*.outBlock {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    text-decoration: none;*/
+/*    font: bold 100%/1 sans-serif;*/
+/*    border: 3px solid white;*/
+/*    min-height: 4em;*/
+/*}*/
+
+
+/*.yourNumber {*/
+/*    background: darkgrey;*/
+/*    min-width: 40vw;*/
+/*    color: black;*/
+/*    padding-left: 30px;*/
+/*}*/
+
+/*.bookSomething {*/
+/*    background: red;*/
+/*    color: white;*/
+/*    min-width: 20vw;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.inputStyle {*/
+/*    width: 33vw;*/
+/*    height: 50px;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*}*/
+
+
+/*@media only screen and (max-width: 768px) {*/
+/*    .outBlock {*/
+/*        transform: skewX(0deg);*/
+/*    }*/
+
+/*    .outBlock > .innerBlock {*/
+/*        transform: skewX(0deg);*/
+/*    }*/
+/*}*/
+
+/** SCSS {*/
+    box-sizing: border-box;
+}
+.mainContainer {
+    display: grid;
+    min-height: 100vh;
+    background: url("../public/backdrop.jpg") center no-repeat;
+    background-size: cover;
+}
+.myForm {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+.error {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+/*.outBlock {*/
+/*    transform: skewX(-45deg);*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    text-decoration: none;*/
+/*    font: bold 100%/1 sans-serif;*/
+/*    border: 3px solid white;*/
+/*    min-height: 4em;*/
+/*    >.innerBlock {*/
+/*        transform: skewX(45deg);*/
+/*    }*/
+/*}*/
+.yourNumber {
+    background: darkgrey;
+    min-width: 40vw;
+    color: black;
+    padding-left: 30px;
+}
+.bookSomething {
+    background: red;
+    color: white;
+    min-width: 20vw;
+    justify-content: center;
+}
+.inputStyle {
+    width: 33vw;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .outBlock {
+        transform: skewX(0deg);
+        >.innerBlock {
+            transform: skewX(0deg);
+        }
+    }
+}
