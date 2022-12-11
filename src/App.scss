@@ -18,7 +18,7 @@
 .mainContainer {
     display: grid;
     min-height: 100vh;
-    background: url("../public/backdrop.jpg") center no-repeat;
+    background: url("../public/background2.png") center no-repeat;
     background-size: cover;
 }
 .myForm {
@@ -53,7 +53,7 @@
 .yourNumber {
     background: darkgrey;
     min-width: 40vw;
-    color: black;
+    color: #251f1f;
     padding-left: 30px;
 }
 .bookSomething {
